@@ -1,0 +1,65 @@
+body{
+    /* background-image:url("5.jpg"); */
+    background-color: antiquewhite;
+    /* background-size:auto; */
+}
+#h1{
+    text-align: right;
+    text-decoration: dotted;
+    font-weight: bold; /*100,200,300,bold,lighter*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2px;
+    text-transform:inherit;
+}
+
+h2{
+    display: inline;
+}
+#id1{
+    height: 90px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    color: aqua;
+    background-color: blueviolet;
+    padding: 45px 0px 0px 0px;
+    margin: 10px 0px 10px 50%;
+    position: relative;
+}
+.flexbox{
+    height: 90px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;  /*row,column,column-reverse*/
+    justify-content: space-evenly;  /*flex,end,flex-start,center,spae evenly*/
+    flex-wrap:wrap;
+    background-color: bisque;
+}
+#flexbox1{
+     height: 20px;
+    width: 30px;
+    border: 2px solid red;
+    background-color: aqua;
+}
+#flexbox2{
+     height: 20px;
+    width: 30px;
+    border: 2px solid red;
+    background-color: aqua;
+}
+
+@media(min-width:500px)
+{
+    body{
+        background-color: rgb(10, 78, 55);
+    }
+}
+#india{
+    color: white;
+    background-image: url("15.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
